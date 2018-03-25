@@ -10,7 +10,7 @@ class PbToJson:public GenerateJson,
 public:
     void createJson();
     json findJsonHead();
-    string teplaceJson(const json &msg_json);
+    string replaceJson(const json &msg_json);
     bool keyIsJsonValue(const string &json_jey);
     string getJsonResult();
     string strDump(const string &str_input);
